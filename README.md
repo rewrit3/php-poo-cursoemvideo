@@ -1,2 +1,1 @@
-# cursoemvideo-php-poo
-PHP (POO) @ Curso em Vídeo
+# PHP (POO) @ Curso em Vídeo
