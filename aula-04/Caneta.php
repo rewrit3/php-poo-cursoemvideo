@@ -1,6 +1,7 @@
 <?php
 
-class Caneta {
+class Caneta
+{
   // Attributes
   public $modelo;
   private $cor;
@@ -8,7 +9,8 @@ class Caneta {
   private $tampada;
 
   // Methods
-  public function __construct($modelo, $cor, $ponta) {
+  public function __construct($modelo, $cor, $ponta)
+  {
     $this->modelo = $modelo;
     $this->cor    = $cor;
     $this->ponta  = $ponta;
@@ -16,35 +18,43 @@ class Caneta {
   }
 
 
-  public function getModelo() {
+  public function getModelo()
+  {
     return $this->modelo;
   }
 
-  public function setModelo($modelo) {
+  public function setModelo($modelo)
+  {
     $this->modelo = $modelo;
   }
 
-  public function getCor() {
+  public function getCor()
+  {
     return $this->cor;
   }
 
-  public function setCor($cor) {
+  public function setCor($cor)
+  {
     $this->cor = $cor;
   }
 
-  public function getPonta() {
+  public function getPonta()
+  {
     return $this->ponta;
   }
 
-  public function setPonta($ponta) {
+  public function setPonta($ponta)
+  {
     $this->ponta = $ponta;
   }
 
-  public function getTampada() {
+  public function getTampada()
+  {
     return $this->tampada;
   }
 
-  public function setTampada($tampada) {
+  public function setTampada($tampada)
+  {
     $this->tampada = $tampada;
   }
 }

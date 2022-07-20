@@ -1,6 +1,7 @@
 <?php
 
-class Televisao {
+class Televisao
+{
   // Attributes
   var $marca;
   var $modelo;
@@ -9,7 +10,8 @@ class Televisao {
   var $ligada;
 
   // Methods
-  function estaLigada() {
+  function estaLigada()
+  {
     if ($this->ligada == true) {
       echo 'A TV está ligada.';
     } else if ($this->ligada == false) {
@@ -17,11 +19,13 @@ class Televisao {
     }
   }
 
-  function ligar() {
+  function ligar()
+  {
     $this->ligada = true;
   }
 
-  function desligar() {
+  function desligar()
+  {
     $this->ligada = false;
   }
 }

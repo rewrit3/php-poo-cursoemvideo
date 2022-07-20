@@ -1,6 +1,7 @@
 <?php
 
-class Caneta {
+class Caneta
+{
   // Attributes
   public $modelo;
   public $cor;
@@ -9,7 +10,8 @@ class Caneta {
   protected $tampada;
 
   // Methods
-  public function rabiscar() {
+  public function rabiscar()
+  {
     if ($this->tampada == true) {
       echo '<p>ERRO! Não posso rabiscar.</p>';
     } else {
@@ -17,11 +19,13 @@ class Caneta {
     }
   }
 
-  public function tampar() {
+  public function tampar()
+  {
     $this->tampada = true;
   }
 
-  public function destampar() {
+  public function destampar()
+  {
     $this->tampada = false;
   }
 }
