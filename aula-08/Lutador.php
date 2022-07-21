@@ -138,7 +138,7 @@ class Lutador
   // Methods
   function apresentar()
   {
-    echo '<p>--------------------</p>';
+    echo '<hr>';
     echo '<p>CHEGOU A HORA!</p>';
     echo '<p>O Lutador ' . $this->getNome();
     echo ' veio diretamente do(a) ' . $this->getNacionalidade();
@@ -149,7 +149,7 @@ class Lutador
 
   function status()
   {
-    echo '<p>--------------------</p>';
+    echo '<hr>';
     echo '<p>' . $this->getNome() . ' é um peso ' . $this->getCategoria();
     echo ' e já ganhou ' . $this->getVitorias() . ' veze(s),';
     echo ' perdeu ' . $this->getDerrotas() . ' veze(s) e';

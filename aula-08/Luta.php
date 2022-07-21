@@ -35,9 +35,9 @@ class Luta
       switch ($vencedor) {
         // Empate
         case 0:
-          echo '<p>---------- *** ----------</p>';
-          echo '<p>---------- *** ----------</p>';
-          echo '<p>---------- *** ----------</p>';
+          echo '<hr>';
+          echo '<hr>';
+          echo '<hr>';
           echo '<p>Empatou!</p>';
 
           $this->desafiante->empatarLuta();
@@ -46,9 +46,9 @@ class Luta
 
         // Ganhou Desafiante
         case 1:
-          echo '<p>---------- *** ----------</p>';
-          echo '<p>---------- *** ----------</p>';
-          echo '<p>---------- *** ----------</p>';
+          echo '<hr>';
+          echo '<hr>';
+          echo '<hr>';
           echo '<p>' . $this->desafiante->getNome() . ' venceu!</p>';
 
           $this->desafiante->ganharLuta();
@@ -57,9 +57,9 @@ class Luta
 
         // Ganhou Desafiado
         case 2:
-          echo '<p>---------- *** ----------</p>';
-          echo '<p>---------- *** ----------</p>';
-          echo '<p>---------- *** ----------</p>';
+          echo '<hr>';
+          echo '<hr>';
+          echo '<hr>';
           echo '<p>' . $this->desafiado->getNome() . ' venceu!</p>';
 
           $this->desafiante->perderLuta();
